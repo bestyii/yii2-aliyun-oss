@@ -1,0 +1,22 @@
+{
+	"name": "bestyii/yii2-aliyun-oss",
+	"description": "阿里云对象存储（OSS）基于flysystem Yii2 扩展",
+	"keywords": ["yii2", "aliyun-oss", "oss", "php", "flysystem","yii2-extension"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "bestyii"
+		}
+	],
+	"type": "yii2-extension",
+	"require": {
+		"php": ">=7.0",
+		"creocoder/yii2-flysystem": "^0.9.3",
+		"xxtime/flysystem-aliyun-oss": "^1.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"bestyii\\aliyunoss\\": "src"
+		}
+	}
+}
